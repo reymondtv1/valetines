@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Request</title>
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Can you be my Valentine?</h1>
+
+    <!-- Valentine's GIF below the heading -->
+    <div class="gif-container">
+      <img src="https://media.giphy.com/media/XYEEvoX0Ub69ZgN9ai/giphy.gif" 
+           alt="Valentine GIF" 
+           style="width: 100%; max-width: 300px; border-radius: 10px;">
+    </div>
+
+    <div class="buttons">
+      <button id="yesBtn" class="btn">Yes</button>
+      <button id="yesBtn2" class="btn">Yes</button>
+    </div>
+    <p id="message"></p>
+    
+    <!-- Yes GIF container -->
+    <div id="gifContainer" class="gif-container">
+      <img id="valentineGif" src="" alt="Valentine's GIF" />
+    </div>
+
+    <!-- Yes GIF container (for second Yes button) -->
+    <div id="yesGifContainer" class="gif-container">
+      <img id="yesGif" src="" alt="Yes GIF" />
+    </div>
+    
+    <!-- Button for love letter -->
+    <div id="loveLetterBtnContainer" class="gif-container">
+      <button id="loveLetterBtn" class="btn">I have a love letter for you, Iya</button>
+    </div>
+
+    <!-- Love letter overlay -->
+    <div id="loveLetterOverlay" class="overlay">
+      <div class="love-letter">
+        <div id="loveLetterText" class="love-letter-text"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
